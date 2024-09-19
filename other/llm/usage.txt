@@ -1,0 +1,5 @@
+ChatGPT usage
+
+Asked: Write an introductory paragraph for a simple paper about a straightforward analysis of marriage license data sourced from Open Data Toronto. The objective was to download, clean, and visualize the data.
+
+Answered: This paper presents a straightforward analysis of marriage license data sourced from Open Data Toronto. The objective of the study was to download, clean, and visualize the dataset to identify key trends and insights. By organizing and refining the raw data, we aimed to improve its usability for analysis. The visualizations created provide a clearer understanding of patterns in marriage license issuance, offering a foundation for future exploration or decision-making regarding civic and demographic trends in Toronto.

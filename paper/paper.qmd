@@ -5,7 +5,7 @@ author:
 thanks: "Code and data are available at: https://github.com/Lwall02/Marriage"
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "We have always tracked data on marriages throughout the world. In Canada we have done the same, and in the GTA we have access to nice data about marriage licenses. Here we analyze data on marriage licesenses in the GTA and graph the data. We find the Toronto and North York specifically have seen a large increase in licenses and perhaps this is due to the recent pandemic."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -24,7 +24,9 @@ data <- read_csv(here::here("data/clean_marriage_data.csv"))
 
 # Introduction
 
-This paper was made using the open source programming language @R.
+This paper presents a straightforward analysis of marriage license data sourced from Open Data Toronto [@opendata]. The objective of the study was to download, clean, and visualize the dataset to identify key trends and insights using @R. By organizing and refining the raw data, we aimed to improve its usability for analysis. The visualizations created provide a clearer understanding of patterns in marriage license issuance, offering a foundation for future exploration or decision-making regarding civic and demographic trends in Toronto.
+
+This paper was made using the open source programming language @R. The data was retrieved using @opendata. The writing was created with the help of ChatGPT.
 
 ```{r}
 #| echo: false
