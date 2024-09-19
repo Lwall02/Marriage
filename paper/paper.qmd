@@ -1,0 +1,40 @@
+---
+title: "Greater Toronto Area Marriage License Quick Look"
+author: 
+  - Liam Wall
+thanks: "Code and data are available at: https://github.com/Lwall02/Marriage"
+date: today
+date-format: long
+abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+format: pdf
+number-sections: true
+bibliography: references.bib
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+
+data <- read_csv(here::here("data/clean_marriage_data.csv"))
+
+```
+
+# Introduction
+
+This paper was made using the open source programming language @R.
+
+```{r}
+#| echo: false
+
+data |>
+  ggplot(aes(x = date, y = marriage_licenses, color = civic_centre)) +
+  geom_point()
+
+```
+
+\newpage
+
+# References
